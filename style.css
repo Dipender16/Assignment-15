@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Poppins&family=Raleway:wght@200;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background: #111;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 45vw;
+    padding: 25px 0px 25px 100px;
+}
+header img{
+    width: 120px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+header ul li{
+    list-style: none;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+#threeDot{
+    color: white;
+    display: none;
+}
+
+/* section1 */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#model{
+    width: 35vw;
+}
+#section1 p:nth-child(1){
+    color: #c91b28;
+    font-size: 2rem;
+}
+#section1 p:nth-child(2){
+    font-size: 5rem;
+    color: white;
+}
+#section1 p:nth-child(3){
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+#section1 button{
+    padding: 10px 30px;
+    background: #c91b28;
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+
+/* section2 */
+#section2{
+    flex-direction: column;
+    padding: 100px 0px;
+    background-image: conic-gradient(#111 0deg, #111 180deg, #181818 180deg);
+}
+#section2Top{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.section2TopCard{
+    background-color: #1e1e1e;
+    padding: 40px 30px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section2TopCard svg{
+    fill: #c91b28;
+    width: 50px;
+}
+.section2TopCard h3{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2.1rem;
+}
+.cardPera{
+    color: white;
+    font-size: 1.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+.knowMore{
+    color: #c91b28;
+    font-size: 1.8rem;
+}
+
+.section2TopCard:hover{
+    background-color: #c91b28;
+}
+.section2TopCard:hover .section2Svg{
+    fill: white;
+}
+.section2TopCard:hover .knowMore{
+    color: white;
+}
+
+#section2Bottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#experience p:nth-child(1){
+    color: #c91b28;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: -20px;
+}
+#experience{
+    margin-left: 20px;
+}
+#experience p:nth-child(2){
+    color: white;
+    font-size: 2rem;
+}
+#section2BottomCards{
+    width: 850px;
+    display: flex;
+    margin-left: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#section2BottomCards div{
+    width: 400px;
+    background-color: #1f1f1f;
+    padding: 30px 0px;
+}
+#section2BottomCards div p:nth-child(1){
+    color: #c91b28;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+#section2BottomCards div p:nth-child(2){
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* section3 */
+#section3{
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#section3Top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 600px;
+}
+#section3Top h3{
+    color: white;
+    font-size: 2rem;
+} 
+#section3Top p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+#section3Top button{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    background-color: #ff2937;
+}
+#section3Cards{
+    width: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.section3CardContainer{
+    width: 450px;
+}
+.cardImg{
+    width: 400px;
+    padding: 70px 20px;
+    background-color: #1e1e1e;
+}
+.cardImg4{
+    padding: 90px 20px;
+}
+.cardTag{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.section3CardContainer .knowMore{
+    font-size: 1.2rem;
+}
+
+/* section4 */
+
+#section4{
+    gap: 280px;
+    padding: 60px 40px;
+    background-color: #1e1e1e;
+    width: fit-content;
+    margin: auto;
+}
+#section4 p{
+    color: white;
+}
+#section4 p:nth-child(1){
+    line-height: 1;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#section4 p:nth-child(2){
+    font-family: 'Raleway', sans-serif;
+}
+#section4 button{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    background-color: #ff2937;
+}
+
+
+/* SECTION5 */
+
+#section5{
+    margin: 80px 0px 50px 0px;
+}
+
+#section5 ul{
+    display: flex;
+    gap: 50px;
+}
+#section5 ul li{
+    list-style: none;
+    color: white;
+}
+    
+/* footer */
+footer{
+    background-color: #1e1e1e;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    padding: 40px 0px;
+    padding-left: 15vw;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social{
+    fill: white;
+    width: 30px;
+}
+.social:nth-child(1){
+    width: 20px;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 1450px) {
+    header{
+        gap: 30vw;
+    }
+    #section1 p:nth-child(3){
+        font-size: 1rem;
+    }
+    #section1 p:nth-child(2){
+        font-size: 4rem;
+    }
+    #section1 button{
+        font-size: 1.2rem;
+    }
+    #section2Bottom{
+        gap: 50px;
+    }
+    #section2BottomCards{
+        margin: 0;
+    }
+    #section3Top{
+        gap: 350px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    header{
+        gap: 20vw;
+        padding: 25px 0px 25px 50px;
+    }
+    #section2Bottom{
+        padding: 0px;
+    }
+    #section2BottomCards{
+        width: fit-content;
+    }
+    #section3Cards{
+        width:fit-content;
+    }
+    #section4{
+        gap: 150px;
+    }
+    .footer{
+        justify-content: center;
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 900px) {
+    header{
+        gap: 15vw;
+        padding: 25px 0px 25px 50px;
+    }
+    header ul{
+        gap: 25px;
+    }
+    #section1 p:nth-child(1){
+        font-size: 1.2rem;
+    }
+    #section1 p:nth-child(2){
+        font-size: 3rem;
+    }
+    #section1 p:nth-child(3){
+        font-size: 0.8rem;
+    }
+    #section1 button{
+        font-size: 1rem;
+    }
+    #section3Top{
+        gap: 100px;
+    }
+    #section4{
+        flex-direction: column;
+        gap: 60px;
+    }
+    #section4 p:nth-child(1){
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #section4 p:nth-child(2){
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 700px) {
+    header{
+        gap: 60vw;
+        padding: 25px 0px;
+        justify-content: center;
+    }
+    header ul{
+        display: none;
+    }
+    #threeDot{
+        display: block;
+    }
+    #section1{
+        flex-direction: column;
+    }
+    #section1 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section1 p:nth-child(1){
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    #section1 p:nth-child(2){
+        font-size: 4rem;
+    }
+    #section1 p:nth-child(3){
+        text-align: center;
+        font-size: 1rem;
+    }
+    #model{
+        width: 60vw;
+    }
+    #section3Top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #section3Top h3{
+        text-align: center;
+    } 
+    #section3Top p{
+        text-align: center;
+    }
+    .footer{
+        gap: 200px;
+    }
+    .footer div{
+        gap: 25px;
+    }
+    
+    .social{
+        width: 20px;
+    }
+    .social:nth-child(1){
+        width: 10px;
+    }
+}
+@media (max-width: 660px) {
+    
+    #section1 p:nth-child(3){
+        font-size: 0.7rem;
+    }
+    #model{
+        width: 80vw;
+    }
+}
+@media (max-width: 550px) {
+    
+    #section1 p:nth-child(1){
+        font-size: 1.5rem;
+    }
+    #section1 p:nth-child(2){
+        font-size: 3.5rem;
+    }
+    #section1 p:nth-child(3){
+        font-size: 0.8rem;
+    }
+    .section3CardContainer{
+        width: fit-content;
+    }
+    .cardImg{
+        width: 300px;
+    }
+    #section3Top h3{
+        font-size: 1.5rem;
+    } 
+    #section3Top p{
+        font-size: 0.8rem;
+    }
+    #section3Top button{
+        padding: 5px 20px;
+    }
+    #section4{
+        padding: 50px 20px;
+    }
+    #section4 p:nth-child(1){
+        font-size: 2rem;
+    }
+    #section4 p:nth-child(2){
+        font-size: 0.7rem;
+    }
+    
+}
+@media (max-width: 460px) {
+    #section1 p:nth-child(2){
+        font-size: 3.2rem;
+    }
+    #section1 p:nth-child(3){
+        font-size: 0.65rem;
+    }
+    .cardPera{
+        font-size: 1.2rem;
+    }
+    #section2BottomCards div{
+        width: 300px;
+    }
+    #section4 p:nth-child(1){
+        font-size: 1.5rem;
+    }
+    #section4 p:nth-child(2){
+        font-size: 0.6rem;
+    }
+    
+    #section4{
+        padding: 40px 10px;
+        gap: 30px;
+    }
+    #section5 ul{
+        gap: 30px;
+    }
+    #section5 ul li{
+        font-size: 0.8rem;
+    }
+    .footer div{
+        gap: 20px;
+    }
+    .footer{
+        gap: 100px;
+    }
+    
+}
